@@ -11,7 +11,7 @@ public class App
 {
     public static final String address = "10.0.0.3";
     public static final int port = 65432;
-
+    //hi
     public static AppWindow win = new AppWindow();
     public static main Main = new main();
     public static Transmission server = new Transmission();
