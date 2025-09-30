@@ -1,0 +1,92 @@
+[0.000000] (-) TimerEvent: {}
+[0.001486] (-) JobUnselected: {'identifier': 'rover_interfaces'}
+[0.001620] (roverbrain_pkg) JobQueued: {'identifier': 'roverbrain_pkg', 'dependencies': OrderedDict({'rover_interfaces': '/home/rover/roverbrain_ws/install/rover_interfaces'})}
+[0.001742] (roverbrain_pkg) JobStarted: {'identifier': 'roverbrain_pkg'}
+[0.099277] (-) TimerEvent: {}
+[0.199872] (-) TimerEvent: {}
+[0.300438] (-) TimerEvent: {}
+[0.401050] (-) TimerEvent: {}
+[0.501553] (-) TimerEvent: {}
+[0.602099] (-) TimerEvent: {}
+[0.702598] (-) TimerEvent: {}
+[0.803136] (-) TimerEvent: {}
+[0.903803] (-) TimerEvent: {}
+[1.005986] (-) TimerEvent: {}
+[1.106592] (-) TimerEvent: {}
+[1.207194] (-) TimerEvent: {}
+[1.307761] (-) TimerEvent: {}
+[1.408265] (-) TimerEvent: {}
+[1.508802] (-) TimerEvent: {}
+[1.609305] (-) TimerEvent: {}
+[1.709826] (-) TimerEvent: {}
+[1.810316] (-) TimerEvent: {}
+[1.910869] (-) TimerEvent: {}
+[2.011364] (-) TimerEvent: {}
+[2.111953] (-) TimerEvent: {}
+[2.212515] (-) TimerEvent: {}
+[2.313038] (-) TimerEvent: {}
+[2.413512] (-) TimerEvent: {}
+[2.514101] (-) TimerEvent: {}
+[2.614807] (-) TimerEvent: {}
+[2.715281] (-) TimerEvent: {}
+[2.815773] (-) TimerEvent: {}
+[2.916264] (-) TimerEvent: {}
+[3.016748] (-) TimerEvent: {}
+[3.117229] (-) TimerEvent: {}
+[3.217765] (-) TimerEvent: {}
+[3.318252] (-) TimerEvent: {}
+[3.418802] (-) TimerEvent: {}
+[3.519451] (-) TimerEvent: {}
+[3.563366] (roverbrain_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/roverbrain_pkg', 'build', '--build-base', '/home/rover/roverbrain_ws/build/roverbrain_pkg/build', 'install', '--record', '/home/rover/roverbrain_ws/build/roverbrain_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rover/roverbrain_ws/src/roverbrain_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rover', 'SSH_CLIENT': '10.0.0.2 57262 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rover/roverbrain_ws/install/rover_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rover', 'OLDPWD': '/home/rover/roverbrain_ws/src/roverbrain_pkg/roverbrain_pkg', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/rover/roverbrain_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rover', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '9', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/rover/roverbrain_ws/install/roverbrain_pkg:/home/rover/roverbrain_ws/install/rover_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/rover/roverbrain_ws/build/roverbrain_pkg', 'SSH_CONNECTION': '10.0.0.2 57262 10.0.0.3 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rover/roverbrain_ws/build/roverbrain_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/roverbrain_ws/install/roverbrain_pkg/lib/python3.12/site-packages:/home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages:/home/rover/roverbrain_ws/install/roverbrain_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/rover/roverbrain_ws/install/rover_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[3.619608] (-) TimerEvent: {}
+[3.720180] (-) TimerEvent: {}
+[3.820748] (-) TimerEvent: {}
+[3.921262] (-) TimerEvent: {}
+[4.021768] (-) TimerEvent: {}
+[4.122261] (-) TimerEvent: {}
+[4.222749] (-) TimerEvent: {}
+[4.323254] (-) TimerEvent: {}
+[4.423740] (-) TimerEvent: {}
+[4.524255] (-) TimerEvent: {}
+[4.624739] (-) TimerEvent: {}
+[4.720992] (roverbrain_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[4.724863] (-) TimerEvent: {}
+[4.806889] (roverbrain_pkg) StdoutLine: {'line': b'writing ../../build/roverbrain_pkg/roverbrain_pkg.egg-info/PKG-INFO\n'}
+[4.807984] (roverbrain_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/roverbrain_pkg/roverbrain_pkg.egg-info/dependency_links.txt\n'}
+[4.811195] (roverbrain_pkg) StdoutLine: {'line': b'writing entry points to ../../build/roverbrain_pkg/roverbrain_pkg.egg-info/entry_points.txt\n'}
+[4.812110] (roverbrain_pkg) StdoutLine: {'line': b'writing requirements to ../../build/roverbrain_pkg/roverbrain_pkg.egg-info/requires.txt\n'}
+[4.812920] (roverbrain_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/roverbrain_pkg/roverbrain_pkg.egg-info/top_level.txt\n'}
+[4.825003] (-) TimerEvent: {}
+[4.925532] (-) TimerEvent: {}
+[4.989543] (roverbrain_pkg) StdoutLine: {'line': b"reading manifest file '../../build/roverbrain_pkg/roverbrain_pkg.egg-info/SOURCES.txt'\n"}
+[4.993162] (roverbrain_pkg) StdoutLine: {'line': b"writing manifest file '../../build/roverbrain_pkg/roverbrain_pkg.egg-info/SOURCES.txt'\n"}
+[4.993802] (roverbrain_pkg) StdoutLine: {'line': b'running build\n'}
+[4.994285] (roverbrain_pkg) StdoutLine: {'line': b'running build_py\n'}
+[4.995151] (roverbrain_pkg) StdoutLine: {'line': b'copying roverbrain_pkg/steering_control.py -> /home/rover/roverbrain_ws/build/roverbrain_pkg/build/lib/roverbrain_pkg\n'}
+[4.996990] (roverbrain_pkg) StdoutLine: {'line': b'running install\n'}
+[5.021258] (roverbrain_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[5.025688] (-) TimerEvent: {}
+[5.108472] (roverbrain_pkg) StdoutLine: {'line': b'copying /home/rover/roverbrain_ws/build/roverbrain_pkg/build/lib/roverbrain_pkg/steering_control.py -> /home/rover/roverbrain_ws/install/roverbrain_pkg/lib/python3.12/site-packages/roverbrain_pkg\n'}
+[5.111883] (roverbrain_pkg) StdoutLine: {'line': b'byte-compiling /home/rover/roverbrain_ws/install/roverbrain_pkg/lib/python3.12/site-packages/roverbrain_pkg/steering_control.py to steering_control.cpython-312.pyc\n'}
+[5.115943] (roverbrain_pkg) StdoutLine: {'line': b'running install_data\n'}
+[5.116604] (roverbrain_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.125790] (-) TimerEvent: {}
+[5.208566] (roverbrain_pkg) StdoutLine: {'line': b"removing '/home/rover/roverbrain_ws/install/roverbrain_pkg/lib/python3.12/site-packages/roverbrain_pkg-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[5.210260] (roverbrain_pkg) StdoutLine: {'line': b'Copying ../../build/roverbrain_pkg/roverbrain_pkg.egg-info to /home/rover/roverbrain_ws/install/roverbrain_pkg/lib/python3.12/site-packages/roverbrain_pkg-0.0.0-py3.12.egg-info\n'}
+[5.215505] (roverbrain_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[5.225924] (-) TimerEvent: {}
+[5.326431] (-) TimerEvent: {}
+[5.426971] (-) TimerEvent: {}
+[5.527455] (-) TimerEvent: {}
+[5.627978] (-) TimerEvent: {}
+[5.728464] (-) TimerEvent: {}
+[5.829025] (-) TimerEvent: {}
+[5.850802] (roverbrain_pkg) StdoutLine: {'line': b'Installing motor_control script to /home/rover/roverbrain_ws/install/roverbrain_pkg/lib/roverbrain_pkg\n'}
+[5.851697] (roverbrain_pkg) StdoutLine: {'line': b'Installing receiver script to /home/rover/roverbrain_ws/install/roverbrain_pkg/lib/roverbrain_pkg\n'}
+[5.852704] (roverbrain_pkg) StdoutLine: {'line': b'Installing steering_control script to /home/rover/roverbrain_ws/install/roverbrain_pkg/lib/roverbrain_pkg\n'}
+[5.854488] (roverbrain_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/rover/roverbrain_ws/build/roverbrain_pkg/install.log'\n"}
+[5.929287] (-) TimerEvent: {}
+[5.994465] (roverbrain_pkg) CommandEnded: {'returncode': 0}
+[6.031531] (-) TimerEvent: {}
+[6.036569] (roverbrain_pkg) JobEnded: {'identifier': 'roverbrain_pkg', 'rc': 0}
+[6.039142] (-) EventReactorShutdown: {}

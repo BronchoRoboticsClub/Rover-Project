@@ -1,0 +1,32 @@
+[5.879s] Invoking command in '/home/rover/roverbrain_ws/src/roverbrain_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rover/roverbrain_ws/build/roverbrain_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/roverbrain_ws/install/roverbrain_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/roverbrain_pkg build --build-base /home/rover/roverbrain_ws/build/roverbrain_pkg/build install --record /home/rover/roverbrain_ws/build/roverbrain_pkg/install.log --single-version-externally-managed install_data
+[7.541s] running egg_info
+[7.543s] creating ../../build/roverbrain_pkg/roverbrain_pkg.egg-info
+[7.692s] writing ../../build/roverbrain_pkg/roverbrain_pkg.egg-info/PKG-INFO
+[7.694s] writing dependency_links to ../../build/roverbrain_pkg/roverbrain_pkg.egg-info/dependency_links.txt
+[7.695s] writing requirements to ../../build/roverbrain_pkg/roverbrain_pkg.egg-info/requires.txt
+[7.697s] writing top-level names to ../../build/roverbrain_pkg/roverbrain_pkg.egg-info/top_level.txt
+[7.699s] writing manifest file '../../build/roverbrain_pkg/roverbrain_pkg.egg-info/SOURCES.txt'
+[7.983s] reading manifest file '../../build/roverbrain_pkg/roverbrain_pkg.egg-info/SOURCES.txt'
+[7.986s] writing manifest file '../../build/roverbrain_pkg/roverbrain_pkg.egg-info/SOURCES.txt'
+[7.988s] running build
+[7.988s] running build_py
+[7.990s] creating /home/rover/roverbrain_ws/build/roverbrain_pkg/build
+[7.990s] creating /home/rover/roverbrain_ws/build/roverbrain_pkg/build/lib
+[7.991s] creating /home/rover/roverbrain_ws/build/roverbrain_pkg/build/lib/roverbrain_pkg
+[7.992s] copying roverbrain_pkg/__init__.py -> /home/rover/roverbrain_ws/build/roverbrain_pkg/build/lib/roverbrain_pkg
+[7.993s] running install
+[8.033s] running install_lib
+[8.198s] creating /home/rover/roverbrain_ws/install/roverbrain_pkg/lib/python3.12/site-packages/roverbrain_pkg
+[8.199s] copying /home/rover/roverbrain_ws/build/roverbrain_pkg/build/lib/roverbrain_pkg/__init__.py -> /home/rover/roverbrain_ws/install/roverbrain_pkg/lib/python3.12/site-packages/roverbrain_pkg
+[8.202s] byte-compiling /home/rover/roverbrain_ws/install/roverbrain_pkg/lib/python3.12/site-packages/roverbrain_pkg/__init__.py to __init__.cpython-312.pyc
+[8.204s] running install_data
+[8.206s] creating /home/rover/roverbrain_ws/install/roverbrain_pkg/share/ament_index
+[8.207s] creating /home/rover/roverbrain_ws/install/roverbrain_pkg/share/ament_index/resource_index
+[8.207s] creating /home/rover/roverbrain_ws/install/roverbrain_pkg/share/ament_index/resource_index/packages
+[8.208s] copying resource/roverbrain_pkg -> /home/rover/roverbrain_ws/install/roverbrain_pkg/share/ament_index/resource_index/packages
+[8.209s] copying package.xml -> /home/rover/roverbrain_ws/install/roverbrain_pkg/share/roverbrain_pkg
+[8.209s] running install_egg_info
+[8.375s] Copying ../../build/roverbrain_pkg/roverbrain_pkg.egg-info to /home/rover/roverbrain_ws/install/roverbrain_pkg/lib/python3.12/site-packages/roverbrain_pkg-0.0.0-py3.12.egg-info
+[8.383s] running install_scripts
+[9.401s] writing list of installed files to '/home/rover/roverbrain_ws/build/roverbrain_pkg/install.log'
+[9.596s] Invoked command in '/home/rover/roverbrain_ws/src/roverbrain_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rover/roverbrain_ws/build/roverbrain_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/roverbrain_ws/install/roverbrain_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/roverbrain_pkg build --build-base /home/rover/roverbrain_ws/build/roverbrain_pkg/build install --record /home/rover/roverbrain_ws/build/roverbrain_pkg/install.log --single-version-externally-managed install_data

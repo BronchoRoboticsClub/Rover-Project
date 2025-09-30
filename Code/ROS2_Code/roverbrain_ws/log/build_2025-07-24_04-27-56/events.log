@@ -1,0 +1,269 @@
+[0.000000] (-) TimerEvent: {}
+[0.000903] (rover_interfaces) JobQueued: {'identifier': 'rover_interfaces', 'dependencies': OrderedDict()}
+[0.001036] (roverbrain_pkg) JobQueued: {'identifier': 'roverbrain_pkg', 'dependencies': OrderedDict({'rover_interfaces': '/home/rover/roverbrain_ws/install/rover_interfaces'})}
+[0.001877] (rover_interfaces) JobStarted: {'identifier': 'rover_interfaces'}
+[0.041271] (rover_interfaces) JobProgress: {'identifier': 'rover_interfaces', 'progress': 'cmake'}
+[0.044293] (rover_interfaces) JobProgress: {'identifier': 'rover_interfaces', 'progress': 'build'}
+[0.047067] (rover_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rover/roverbrain_ws/build/rover_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/rover/roverbrain_ws/build/rover_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rover', 'SSH_CLIENT': '10.0.0.2 54131 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rover/roverbrain_ws/install/rover_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rover', 'OLDPWD': '/home/rover/roverbrain_ws/src/roverbrain_pkg/roverbrain_pkg', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/rover/roverbrain_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rover', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '39', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/rover/roverbrain_ws/install/roverbrain_pkg:/home/rover/roverbrain_ws/install/rover_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/rover/roverbrain_ws/build/rover_interfaces', 'SSH_CONNECTION': '10.0.0.2 54131 10.0.0.3 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rover/roverbrain_ws/install/roverbrain_pkg/lib/python3.12/site-packages:/home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/rover/roverbrain_ws/install/rover_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rover/roverbrain_ws/install/roverbrain_pkg:/opt/ros/jazzy'}), 'shell': False}
+[0.099278] (-) TimerEvent: {}
+[0.199894] (-) TimerEvent: {}
+[0.300543] (-) TimerEvent: {}
+[0.324457] (rover_interfaces) StdoutLine: {'line': b'[  2%] Built target rover_interfaces__rosidl_generator_type_description\n'}
+[0.379187] (rover_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_rover_interfaces\n'}
+[0.400782] (-) TimerEvent: {}
+[0.438659] (rover_interfaces) StdoutLine: {'line': b'[  5%] Built target rover_interfaces__cpp\n'}
+[0.446526] (rover_interfaces) StdoutLine: {'line': b'[ 20%] Built target rover_interfaces__rosidl_generator_c\n'}
+[0.503909] (-) TimerEvent: {}
+[0.577255] (rover_interfaces) StdoutLine: {'line': b'[ 29%] Built target rover_interfaces__rosidl_typesupport_cpp\n'}
+[0.580057] (rover_interfaces) StdoutLine: {'line': b'[ 38%] Built target rover_interfaces__rosidl_typesupport_c\n'}
+[0.583861] (rover_interfaces) StdoutLine: {'line': b'[ 47%] Built target rover_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.604102] (-) TimerEvent: {}
+[0.707212] (-) TimerEvent: {}
+[0.717530] (rover_interfaces) StdoutLine: {'line': b'[ 55%] Built target rover_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.721920] (rover_interfaces) StdoutLine: {'line': b'[ 73%] Built target rover_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.722782] (rover_interfaces) StdoutLine: {'line': b'[ 73%] Built target rover_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.807391] (-) TimerEvent: {}
+[0.836396] (rover_interfaces) StdoutLine: {'line': b'[ 73%] Built target rover_interfaces\n'}
+[0.907555] (-) TimerEvent: {}
+[0.949457] (rover_interfaces) StdoutLine: {'line': b'[ 76%] Built target rover_interfaces__py\n'}
+[1.007752] (-) TimerEvent: {}
+[1.071790] (rover_interfaces) StdoutLine: {'line': b'[ 82%] Built target rover_interfaces__rosidl_generator_py\n'}
+[1.109245] (-) TimerEvent: {}
+[1.206094] (rover_interfaces) StdoutLine: {'line': b'[ 88%] Built target rover_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[1.207225] (rover_interfaces) StdoutLine: {'line': b'[ 94%] Built target rover_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[1.209887] (rover_interfaces) StdoutLine: {'line': b'[100%] Built target rover_interfaces_s__rosidl_typesupport_c\n'}
+[1.210854] (-) TimerEvent: {}
+[1.312199] (-) TimerEvent: {}
+[1.412708] (-) TimerEvent: {}
+[1.513222] (-) TimerEvent: {}
+[1.525048] (rover_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.611908] (rover_interfaces) StdoutLine: {'line': b'writing rover_interfaces.egg-info/PKG-INFO\n'}
+[1.612979] (rover_interfaces) StdoutLine: {'line': b'writing dependency_links to rover_interfaces.egg-info/dependency_links.txt\n'}
+[1.613431] (-) TimerEvent: {}
+[1.614207] (rover_interfaces) StdoutLine: {'line': b'writing top-level names to rover_interfaces.egg-info/top_level.txt\n'}
+[1.713588] (-) TimerEvent: {}
+[1.814158] (-) TimerEvent: {}
+[1.867969] (rover_interfaces) StdoutLine: {'line': b"reading manifest file 'rover_interfaces.egg-info/SOURCES.txt'\n"}
+[1.870339] (rover_interfaces) StdoutLine: {'line': b"writing manifest file 'rover_interfaces.egg-info/SOURCES.txt'\n"}
+[1.914379] (-) TimerEvent: {}
+[2.015140] (-) TimerEvent: {}
+[2.016182] (rover_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_rover_interfaces_egg\n'}
+[2.073583] (rover_interfaces) CommandEnded: {'returncode': 0}
+[2.075672] (rover_interfaces) JobProgress: {'identifier': 'rover_interfaces', 'progress': 'install'}
+[2.115335] (-) TimerEvent: {}
+[2.123551] (rover_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rover/roverbrain_ws/build/rover_interfaces'], 'cwd': '/home/rover/roverbrain_ws/build/rover_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rover', 'SSH_CLIENT': '10.0.0.2 54131 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rover/roverbrain_ws/install/rover_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rover', 'OLDPWD': '/home/rover/roverbrain_ws/src/roverbrain_pkg/roverbrain_pkg', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/rover/roverbrain_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rover', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '39', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/rover/roverbrain_ws/install/roverbrain_pkg:/home/rover/roverbrain_ws/install/rover_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/rover/roverbrain_ws/build/rover_interfaces', 'SSH_CONNECTION': '10.0.0.2 54131 10.0.0.3 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rover/roverbrain_ws/install/roverbrain_pkg/lib/python3.12/site-packages:/home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/rover/roverbrain_ws/install/rover_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/rover/roverbrain_ws/install/roverbrain_pkg:/opt/ros/jazzy'}), 'shell': False}
+[2.166509] (rover_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.167230] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/ament_index/resource_index/rosidl_interfaces/rover_interfaces\n'}
+[2.167775] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/msg/Control.json\n'}
+[2.168181] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces\n'}
+[2.168665] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg\n'}
+[2.169064] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/control.h\n'}
+[2.169504] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.169986] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail\n'}
+[2.170343] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/control__description.c\n'}
+[2.170798] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/control__type_support.h\n'}
+[2.171287] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/control__functions.c\n'}
+[2.171598] (rover_interfaces) StdoutLine: {'line': b'-- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/control__type_support.c\n'}
+[2.172025] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/control__functions.h\n'}
+[2.172474] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/control__struct.h\n'}
+[2.173021] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/environment/library_path.sh\n'}
+[2.173403] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/environment/library_path.dsv\n'}
+[2.174203] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/lib/librover_interfaces__rosidl_generator_c.so\n'}
+[2.175371] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces\n'}
+[2.175889] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg\n'}
+[2.176346] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.176761] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail\n'}
+[2.177292] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/control__rosidl_typesupport_fastrtps_c.h\n'}
+[2.178249] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/lib/librover_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[2.179486] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces\n'}
+[2.180095] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg\n'}
+[2.180546] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail\n'}
+[2.181058] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/control__rosidl_typesupport_introspection_c.h\n'}
+[2.181420] (rover_interfaces) StdoutLine: {'line': b'-- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/control__type_support.c\n'}
+[2.182383] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.183564] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/lib/librover_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[2.185408] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/lib/librover_interfaces__rosidl_typesupport_c.so\n'}
+[2.186501] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces\n'}
+[2.187042] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg\n'}
+[2.187439] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail\n'}
+[2.187836] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/control__type_support.hpp\n'}
+[2.188313] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/control__builder.hpp\n'}
+[2.188680] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/control__traits.hpp\n'}
+[2.189051] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/control__struct.hpp\n'}
+[2.189504] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[2.190006] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/control.hpp\n'}
+[2.190363] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces\n'}
+[2.190845] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg\n'}
+[2.191256] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail\n'}
+[2.191591] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/dds_fastrtps\n'}
+[2.191979] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.192395] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.192831] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/lib/librover_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.193938] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces\n'}
+[2.194437] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg\n'}
+[2.194847] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail\n'}
+[2.195278] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/control__type_support.cpp\n'}
+[2.195724] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.196626] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/lib/librover_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[2.198453] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/lib/librover_interfaces__rosidl_typesupport_cpp.so\n'}
+[2.199566] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/environment/pythonpath.sh\n'}
+[2.200051] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/environment/pythonpath.dsv\n'}
+[2.200441] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces-0.0.0-py3.12.egg-info\n'}
+[2.200819] (rover_interfaces) StdoutLine: {'line': b'-- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[2.202150] (rover_interfaces) StdoutLine: {'line': b'-- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[2.203320] (rover_interfaces) StdoutLine: {'line': b'-- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[2.204529] (rover_interfaces) StdoutLine: {'line': b'-- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[2.205898] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces\n'}
+[2.206450] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces/rover_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[2.206917] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces/_rover_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[2.207313] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces/_rover_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.207799] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces/__init__.py\n'}
+[2.208221] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces/_rover_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.208558] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces/rover_interfaces_s__rosidl_typesupport_c.so\n'}
+[2.209015] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces/msg\n'}
+[2.209477] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces/msg/_control_s.c\n'}
+[2.210037] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces/msg/__init__.py\n'}
+[2.210382] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces/msg/_control.py\n'}
+[2.210685] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces/rover_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[2.215488] (-) TimerEvent: {}
+[2.316118] (-) TimerEvent: {}
+[2.367048] (rover_interfaces) StdoutLine: {'line': b"Listing '/home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces'...\n"}
+[2.368211] (rover_interfaces) StdoutLine: {'line': b"Listing '/home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces/msg'...\n"}
+[2.396254] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces/rover_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[2.398459] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces/rover_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[2.400867] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces/rover_interfaces_s__rosidl_typesupport_c.so\n'}
+[2.403069] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/lib/librover_interfaces__rosidl_generator_py.so\n'}
+[2.404401] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/msg/Control.idl\n'}
+[2.405021] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/msg/Control.msg\n'}
+[2.405552] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/ament_index/resource_index/package_run_dependencies/rover_interfaces\n'}
+[2.406061] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/ament_index/resource_index/parent_prefix_path/rover_interfaces\n'}
+[2.406566] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/environment/ament_prefix_path.sh\n'}
+[2.407115] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/environment/ament_prefix_path.dsv\n'}
+[2.407661] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/environment/path.sh\n'}
+[2.408117] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/environment/path.dsv\n'}
+[2.408666] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/local_setup.bash\n'}
+[2.409176] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/local_setup.sh\n'}
+[2.409528] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/local_setup.zsh\n'}
+[2.410100] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/local_setup.dsv\n'}
+[2.410491] (rover_interfaces) StdoutLine: {'line': b'-- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/package.dsv\n'}
+[2.410915] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/ament_index/resource_index/packages/rover_interfaces\n'}
+[2.411766] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/export_rover_interfaces__rosidl_generator_cExport.cmake\n'}
+[2.412272] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/export_rover_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.413059] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/export_rover_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.413526] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/export_rover_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.414447] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/rover_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.414978] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/rover_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.415766] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/rover_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[2.416166] (-) TimerEvent: {}
+[2.416819] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/rover_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.417359] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/export_rover_interfaces__rosidl_generator_cppExport.cmake\n'}
+[2.418053] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/export_rover_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.418519] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/export_rover_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.419422] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/rover_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.419949] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/rover_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.420736] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/rover_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[2.421236] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/rover_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.422046] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/export_rover_interfaces__rosidl_generator_pyExport.cmake\n'}
+[2.422534] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/export_rover_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.423025] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[2.423444] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.423946] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.424412] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.424845] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.425329] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.425835] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.426259] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/rover_interfacesConfig.cmake\n'}
+[2.426603] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/rover_interfacesConfig-version.cmake\n'}
+[2.427159] (rover_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/package.xml\n'}
+[2.434066] (rover_interfaces) CommandEnded: {'returncode': 0}
+[2.516541] (-) TimerEvent: {}
+[2.546829] (rover_interfaces) JobEnded: {'identifier': 'rover_interfaces', 'rc': 0}
+[2.550823] (roverbrain_pkg) JobStarted: {'identifier': 'roverbrain_pkg'}
+[2.616838] (-) TimerEvent: {}
+[2.717529] (-) TimerEvent: {}
+[2.818109] (-) TimerEvent: {}
+[2.918637] (-) TimerEvent: {}
+[3.019201] (-) TimerEvent: {}
+[3.119700] (-) TimerEvent: {}
+[3.220228] (-) TimerEvent: {}
+[3.320784] (-) TimerEvent: {}
+[3.421278] (-) TimerEvent: {}
+[3.521851] (-) TimerEvent: {}
+[3.622446] (-) TimerEvent: {}
+[3.723035] (-) TimerEvent: {}
+[3.823567] (-) TimerEvent: {}
+[3.924146] (-) TimerEvent: {}
+[4.024655] (-) TimerEvent: {}
+[4.125190] (-) TimerEvent: {}
+[4.225692] (-) TimerEvent: {}
+[4.326244] (-) TimerEvent: {}
+[4.426786] (-) TimerEvent: {}
+[4.527389] (-) TimerEvent: {}
+[4.627958] (-) TimerEvent: {}
+[4.728519] (-) TimerEvent: {}
+[4.829047] (-) TimerEvent: {}
+[4.929534] (-) TimerEvent: {}
+[5.030098] (-) TimerEvent: {}
+[5.130642] (-) TimerEvent: {}
+[5.231184] (-) TimerEvent: {}
+[5.331695] (-) TimerEvent: {}
+[5.432243] (-) TimerEvent: {}
+[5.532784] (-) TimerEvent: {}
+[5.633275] (-) TimerEvent: {}
+[5.733805] (-) TimerEvent: {}
+[5.834342] (-) TimerEvent: {}
+[5.934951] (-) TimerEvent: {}
+[6.035576] (-) TimerEvent: {}
+[6.116820] (roverbrain_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/roverbrain_pkg', 'build', '--build-base', '/home/rover/roverbrain_ws/build/roverbrain_pkg/build', 'install', '--record', '/home/rover/roverbrain_ws/build/roverbrain_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rover/roverbrain_ws/src/roverbrain_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rover', 'SSH_CLIENT': '10.0.0.2 54131 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rover/roverbrain_ws/install/rover_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rover', 'OLDPWD': '/home/rover/roverbrain_ws/src/roverbrain_pkg/roverbrain_pkg', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/rover/roverbrain_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rover', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '39', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/rover/roverbrain_ws/install/roverbrain_pkg:/home/rover/roverbrain_ws/install/rover_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/rover/roverbrain_ws/build/roverbrain_pkg', 'SSH_CONNECTION': '10.0.0.2 54131 10.0.0.3 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rover/roverbrain_ws/build/roverbrain_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/roverbrain_ws/install/roverbrain_pkg/lib/python3.12/site-packages:/home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages:/home/rover/roverbrain_ws/install/roverbrain_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/rover/roverbrain_ws/install/rover_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[6.135776] (-) TimerEvent: {}
+[6.236368] (-) TimerEvent: {}
+[6.336940] (-) TimerEvent: {}
+[6.437465] (-) TimerEvent: {}
+[6.538100] (-) TimerEvent: {}
+[6.638802] (-) TimerEvent: {}
+[6.739299] (-) TimerEvent: {}
+[6.839804] (-) TimerEvent: {}
+[6.940291] (-) TimerEvent: {}
+[7.040798] (-) TimerEvent: {}
+[7.141284] (-) TimerEvent: {}
+[7.241817] (-) TimerEvent: {}
+[7.272540] (roverbrain_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[7.341948] (-) TimerEvent: {}
+[7.357578] (roverbrain_pkg) StdoutLine: {'line': b'writing ../../build/roverbrain_pkg/roverbrain_pkg.egg-info/PKG-INFO\n'}
+[7.358684] (roverbrain_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/roverbrain_pkg/roverbrain_pkg.egg-info/dependency_links.txt\n'}
+[7.362057] (roverbrain_pkg) StdoutLine: {'line': b'writing entry points to ../../build/roverbrain_pkg/roverbrain_pkg.egg-info/entry_points.txt\n'}
+[7.363761] (roverbrain_pkg) StdoutLine: {'line': b'writing requirements to ../../build/roverbrain_pkg/roverbrain_pkg.egg-info/requires.txt\n'}
+[7.365162] (roverbrain_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/roverbrain_pkg/roverbrain_pkg.egg-info/top_level.txt\n'}
+[7.442088] (-) TimerEvent: {}
+[7.542606] (-) TimerEvent: {}
+[7.543699] (roverbrain_pkg) StdoutLine: {'line': b"reading manifest file '../../build/roverbrain_pkg/roverbrain_pkg.egg-info/SOURCES.txt'\n"}
+[7.547247] (roverbrain_pkg) StdoutLine: {'line': b"writing manifest file '../../build/roverbrain_pkg/roverbrain_pkg.egg-info/SOURCES.txt'\n"}
+[7.547898] (roverbrain_pkg) StdoutLine: {'line': b'running build\n'}
+[7.548451] (roverbrain_pkg) StdoutLine: {'line': b'running build_py\n'}
+[7.549299] (roverbrain_pkg) StdoutLine: {'line': b'copying roverbrain_pkg/steering_control.py -> /home/rover/roverbrain_ws/build/roverbrain_pkg/build/lib/roverbrain_pkg\n'}
+[7.551158] (roverbrain_pkg) StdoutLine: {'line': b'running install\n'}
+[7.576026] (roverbrain_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[7.642771] (-) TimerEvent: {}
+[7.663076] (roverbrain_pkg) StdoutLine: {'line': b'copying /home/rover/roverbrain_ws/build/roverbrain_pkg/build/lib/roverbrain_pkg/steering_control.py -> /home/rover/roverbrain_ws/install/roverbrain_pkg/lib/python3.12/site-packages/roverbrain_pkg\n'}
+[7.666438] (roverbrain_pkg) StdoutLine: {'line': b'byte-compiling /home/rover/roverbrain_ws/install/roverbrain_pkg/lib/python3.12/site-packages/roverbrain_pkg/steering_control.py to steering_control.cpython-312.pyc\n'}
+[7.669503] (roverbrain_pkg) StdoutLine: {'line': b'running install_data\n'}
+[7.670321] (roverbrain_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.742905] (-) TimerEvent: {}
+[7.762003] (roverbrain_pkg) StdoutLine: {'line': b"removing '/home/rover/roverbrain_ws/install/roverbrain_pkg/lib/python3.12/site-packages/roverbrain_pkg-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[7.763779] (roverbrain_pkg) StdoutLine: {'line': b'Copying ../../build/roverbrain_pkg/roverbrain_pkg.egg-info to /home/rover/roverbrain_ws/install/roverbrain_pkg/lib/python3.12/site-packages/roverbrain_pkg-0.0.0-py3.12.egg-info\n'}
+[7.769034] (roverbrain_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[7.843078] (-) TimerEvent: {}
+[7.943586] (-) TimerEvent: {}
+[8.044127] (-) TimerEvent: {}
+[8.144626] (-) TimerEvent: {}
+[8.245167] (-) TimerEvent: {}
+[8.345688] (-) TimerEvent: {}
+[8.411487] (roverbrain_pkg) StdoutLine: {'line': b'Installing motor_control script to /home/rover/roverbrain_ws/install/roverbrain_pkg/lib/roverbrain_pkg\n'}
+[8.412425] (roverbrain_pkg) StdoutLine: {'line': b'Installing receiver script to /home/rover/roverbrain_ws/install/roverbrain_pkg/lib/roverbrain_pkg\n'}
+[8.413517] (roverbrain_pkg) StdoutLine: {'line': b'Installing steering_control script to /home/rover/roverbrain_ws/install/roverbrain_pkg/lib/roverbrain_pkg\n'}
+[8.415332] (roverbrain_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/rover/roverbrain_ws/build/roverbrain_pkg/install.log'\n"}
+[8.445941] (-) TimerEvent: {}
+[8.547072] (-) TimerEvent: {}
+[8.555789] (roverbrain_pkg) CommandEnded: {'returncode': 0}
+[8.584615] (roverbrain_pkg) JobEnded: {'identifier': 'roverbrain_pkg', 'rc': 0}
+[8.587200] (-) EventReactorShutdown: {}

@@ -1,0 +1,5 @@
+  File "/home/rover/roverbrain_ws/install/roverbrain_pkg/lib/python3.12/site-packages/roverbrain_pkg/steering_control.py", line 20
+    self.get_logger().info(f"Sent: {bytes[0xAA, angle, speed]}
+                           ^
+SyntaxError: unterminated f-string literal (detected at line 20)
+

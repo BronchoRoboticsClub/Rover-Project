@@ -1,0 +1,5 @@
+  File "/home/rover/roverbrain_ws/install/roverbrain_pkg/lib/python3.12/site-packages/roverbrain_pkg/steering_control.py", line 31
+    RR_angle = int(RR_angle+90
+                  ^
+SyntaxError: '(' was never closed
+

@@ -1,0 +1,226 @@
+[0.097s] Invoking command in '/home/rover/roverbrain_ws/build/rover_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rover/roverbrain_ws/src/rover_interfaces -DCMAKE_INSTALL_PREFIX=/home/rover/roverbrain_ws/install/rover_interfaces
+[1.386s] -- The C compiler identification is GNU 13.3.0
+[2.218s] -- The CXX compiler identification is GNU 13.3.0
+[2.336s] -- Detecting C compiler ABI info
+[2.923s] -- Detecting C compiler ABI info - done
+[2.965s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.967s] -- Detecting C compile features
+[2.970s] -- Detecting C compile features - done
+[3.025s] -- Detecting CXX compiler ABI info
+[3.690s] -- Detecting CXX compiler ABI info - done
+[3.730s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.735s] -- Detecting CXX compile features
+[3.738s] -- Detecting CXX compile features - done
+[3.776s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.668s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.488s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[5.566s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.131s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.543s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[9.869s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[12.173s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[15.100s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[15.130s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[15.851s] -- Found PythonExtra: /usr/bin/python3  
+[18.146s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[18.387s] -- Configuring done (18.0s)
+[18.592s] -- Generating done (0.2s)
+[18.640s] -- Build files have been written to: /home/rover/roverbrain_ws/build/rover_interfaces
+[18.675s] Invoked command in '/home/rover/roverbrain_ws/build/rover_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/rover/roverbrain_ws/src/rover_interfaces -DCMAKE_INSTALL_PREFIX=/home/rover/roverbrain_ws/install/rover_interfaces
+[18.677s] Invoking command in '/home/rover/roverbrain_ws/build/rover_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rover/roverbrain_ws/build/rover_interfaces -- -j4 -l4
+[18.963s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[19.012s] [  2%] Built target ament_cmake_python_copy_rover_interfaces
+[19.960s] [  2%] Built target rover_interfaces__rosidl_generator_type_description
+[20.029s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[20.103s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[20.492s] running egg_info
+[20.498s] creating rover_interfaces.egg-info
+[20.651s] writing rover_interfaces.egg-info/PKG-INFO
+[20.655s] writing dependency_links to rover_interfaces.egg-info/dependency_links.txt
+[20.656s] writing top-level names to rover_interfaces.egg-info/top_level.txt
+[20.659s] writing manifest file 'rover_interfaces.egg-info/SOURCES.txt'
+[21.071s] reading manifest file 'rover_interfaces.egg-info/SOURCES.txt'
+[21.074s] writing manifest file 'rover_interfaces.egg-info/SOURCES.txt'
+[21.357s] [  8%] Built target ament_cmake_python_build_rover_interfaces_egg
+[21.581s] [  8%] Built target rover_interfaces__cpp
+[21.657s] [ 11%] [32mBuilding C object CMakeFiles/rover_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rover_interfaces/msg/detail/control__description.c.o[0m
+[21.661s] [ 14%] [32mBuilding C object CMakeFiles/rover_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rover_interfaces/msg/detail/control__functions.c.o[0m
+[21.663s] [ 17%] [32mBuilding C object CMakeFiles/rover_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rover_interfaces/msg/detail/control__type_support.c.o[0m
+[22.045s] [ 20%] [32m[1mLinking C shared library librover_interfaces__rosidl_generator_c.so[0m
+[22.262s] [ 20%] Built target rover_interfaces__rosidl_generator_c
+[22.333s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[22.341s] [ 26%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[22.349s] [ 32%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[22.351s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[23.934s] [ 35%] [32mBuilding C object CMakeFiles/rover_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rover_interfaces/msg/detail/control__type_support.c.o[0m
+[23.962s] [ 38%] [32mBuilding CXX object CMakeFiles/rover_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rover_interfaces/msg/control__type_support.cpp.o[0m
+[24.002s] [ 41%] [32mBuilding CXX object CMakeFiles/rover_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rover_interfaces/msg/control__type_support.cpp.o[0m
+[24.064s] [ 44%] [32mBuilding CXX object CMakeFiles/rover_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rover_interfaces/msg/detail/control__type_support_c.cpp.o[0m
+[24.337s] [ 47%] [32m[1mLinking C shared library librover_interfaces__rosidl_typesupport_introspection_c.so[0m
+[24.649s] [ 47%] Built target rover_interfaces__rosidl_typesupport_introspection_c
+[24.719s] [ 50%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[24.782s] [ 52%] [32m[1mLinking CXX shared library librover_interfaces__rosidl_typesupport_c.so[0m
+[25.059s] [ 52%] Built target rover_interfaces__rosidl_typesupport_c
+[25.145s] [ 55%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[26.677s] [ 58%] [32mBuilding CXX object CMakeFiles/rover_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rover_interfaces/msg/detail/dds_fastrtps/control__type_support.cpp.o[0m
+[26.851s] [ 61%] [32mBuilding CXX object CMakeFiles/rover_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rover_interfaces/msg/detail/control__type_support.cpp.o[0m
+[27.185s] [ 64%] [32m[1mLinking CXX shared library librover_interfaces__rosidl_typesupport_cpp.so[0m
+[27.498s] [ 64%] Built target rover_interfaces__rosidl_typesupport_cpp
+[28.204s] [ 67%] [32m[1mLinking CXX shared library librover_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[28.595s] [ 67%] Built target rover_interfaces__rosidl_typesupport_fastrtps_c
+[28.934s] [ 70%] [32m[1mLinking CXX shared library librover_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[29.183s] [ 70%] Built target rover_interfaces__rosidl_typesupport_introspection_cpp
+[29.657s] [ 73%] [32m[1mLinking CXX shared library librover_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[29.916s] [ 73%] Built target rover_interfaces__rosidl_typesupport_fastrtps_cpp
+[30.036s] [ 73%] Built target rover_interfaces
+[30.155s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[31.437s] [ 76%] Built target rover_interfaces__py
+[31.556s] [ 79%] [32mBuilding C object CMakeFiles/rover_interfaces__rosidl_generator_py.dir/rosidl_generator_py/rover_interfaces/msg/_control_s.c.o[0m
+[32.310s] [ 82%] [32m[1mLinking C shared library librover_interfaces__rosidl_generator_py.so[0m
+[32.546s] [ 82%] Built target rover_interfaces__rosidl_generator_py
+[32.673s] [ 85%] [32mBuilding C object CMakeFiles/rover_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/rover_interfaces/_rover_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[32.679s] [ 88%] [32mBuilding C object CMakeFiles/rover_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/rover_interfaces/_rover_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[32.683s] [ 91%] [32mBuilding C object CMakeFiles/rover_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/rover_interfaces/_rover_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[33.251s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/rover_interfaces/rover_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[33.257s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/rover_interfaces/rover_interfaces_s__rosidl_typesupport_c.so[0m
+[33.304s] [100%] [32m[1mLinking C shared module rosidl_generator_py/rover_interfaces/rover_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[33.445s] [100%] Built target rover_interfaces_s__rosidl_typesupport_introspection_c
+[33.456s] [100%] Built target rover_interfaces_s__rosidl_typesupport_c
+[33.501s] [100%] Built target rover_interfaces_s__rosidl_typesupport_fastrtps_c
+[33.563s] Invoked command in '/home/rover/roverbrain_ws/build/rover_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/rover/roverbrain_ws/build/rover_interfaces -- -j4 -l4
+[33.619s] Invoking command in '/home/rover/roverbrain_ws/build/rover_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rover/roverbrain_ws/build/rover_interfaces
+[33.658s] -- Install configuration: ""
+[33.659s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/ament_index/resource_index/rosidl_interfaces/rover_interfaces
+[33.661s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/msg/Control.json
+[33.662s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces
+[33.663s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg
+[33.664s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/control.h
+[33.665s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/rosidl_generator_c__visibility_control.h
+[33.666s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail
+[33.667s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/control__description.c
+[33.668s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/control__type_support.h
+[33.669s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/control__functions.c
+[33.671s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/control__type_support.c
+[33.672s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/control__functions.h
+[33.673s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/control__struct.h
+[33.675s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/environment/library_path.sh
+[33.676s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/environment/library_path.dsv
+[33.677s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/lib/librover_interfaces__rosidl_generator_c.so
+[33.681s] -- Set non-toolchain portion of runtime path of "/home/rover/roverbrain_ws/install/rover_interfaces/lib/librover_interfaces__rosidl_generator_c.so" to ""
+[33.681s] -- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces
+[33.682s] -- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg
+[33.682s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[33.683s] -- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail
+[33.684s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/control__rosidl_typesupport_fastrtps_c.h
+[33.685s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/lib/librover_interfaces__rosidl_typesupport_fastrtps_c.so
+[33.689s] -- Set non-toolchain portion of runtime path of "/home/rover/roverbrain_ws/install/rover_interfaces/lib/librover_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[33.689s] -- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces
+[33.690s] -- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg
+[33.690s] -- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail
+[33.691s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/control__rosidl_typesupport_introspection_c.h
+[33.692s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/control__type_support.c
+[33.693s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[33.695s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/lib/librover_interfaces__rosidl_typesupport_introspection_c.so
+[33.698s] -- Set non-toolchain portion of runtime path of "/home/rover/roverbrain_ws/install/rover_interfaces/lib/librover_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[33.698s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/lib/librover_interfaces__rosidl_typesupport_c.so
+[33.701s] -- Set non-toolchain portion of runtime path of "/home/rover/roverbrain_ws/install/rover_interfaces/lib/librover_interfaces__rosidl_typesupport_c.so" to ""
+[33.702s] -- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces
+[33.702s] -- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg
+[33.703s] -- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail
+[33.704s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/control__type_support.hpp
+[33.708s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/control__builder.hpp
+[33.709s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/control__traits.hpp
+[33.709s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/control__struct.hpp
+[33.710s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[33.711s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/control.hpp
+[33.717s] -- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces
+[33.717s] -- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg
+[33.718s] -- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail
+[33.718s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/dds_fastrtps
+[33.722s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/control__rosidl_typesupport_fastrtps_cpp.hpp
+[33.724s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[33.725s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/lib/librover_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[33.725s] -- Set non-toolchain portion of runtime path of "/home/rover/roverbrain_ws/install/rover_interfaces/lib/librover_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[33.725s] -- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces
+[33.726s] -- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg
+[33.726s] -- Up-to-date: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail
+[33.727s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/control__type_support.cpp
+[33.727s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/include/rover_interfaces/rover_interfaces/msg/detail/control__rosidl_typesupport_introspection_cpp.hpp
+[33.728s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/lib/librover_interfaces__rosidl_typesupport_introspection_cpp.so
+[33.731s] -- Set non-toolchain portion of runtime path of "/home/rover/roverbrain_ws/install/rover_interfaces/lib/librover_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[33.732s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/lib/librover_interfaces__rosidl_typesupport_cpp.so
+[33.735s] -- Set non-toolchain portion of runtime path of "/home/rover/roverbrain_ws/install/rover_interfaces/lib/librover_interfaces__rosidl_typesupport_cpp.so" to ""
+[33.735s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/environment/pythonpath.sh
+[33.736s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/environment/pythonpath.dsv
+[33.738s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces-0.0.0-py3.12.egg-info
+[33.739s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[33.740s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[33.741s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[33.742s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[33.744s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces
+[33.744s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces/rover_interfaces_s__rosidl_typesupport_introspection_c.so
+[33.747s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces/_rover_interfaces_s.ep.rosidl_typesupport_c.c
+[33.748s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces/_rover_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[33.749s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces/__init__.py
+[33.750s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces/_rover_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[33.751s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces/rover_interfaces_s__rosidl_typesupport_c.so
+[33.753s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces/msg
+[33.754s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces/msg/_control_s.c
+[33.755s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces/msg/__init__.py
+[33.756s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces/msg/_control.py
+[33.757s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces/rover_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[33.956s] Listing '/home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces'...
+[33.958s] Compiling '/home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces/__init__.py'...
+[33.959s] Listing '/home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces/msg'...
+[33.962s] Compiling '/home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces/msg/__init__.py'...
+[33.964s] Compiling '/home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces/msg/_control.py'...
+[33.992s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces/rover_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[33.995s] -- Set non-toolchain portion of runtime path of "/home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces/rover_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[33.997s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces/rover_interfaces_s__rosidl_typesupport_introspection_c.so
+[34.000s] -- Set non-toolchain portion of runtime path of "/home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces/rover_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[34.002s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces/rover_interfaces_s__rosidl_typesupport_c.so
+[34.005s] -- Set non-toolchain portion of runtime path of "/home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages/rover_interfaces/rover_interfaces_s__rosidl_typesupport_c.so" to ""
+[34.008s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/lib/librover_interfaces__rosidl_generator_py.so
+[34.010s] -- Set non-toolchain portion of runtime path of "/home/rover/roverbrain_ws/install/rover_interfaces/lib/librover_interfaces__rosidl_generator_py.so" to ""
+[34.010s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/msg/Control.idl
+[34.014s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/msg/Control.msg
+[34.017s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/ament_index/resource_index/package_run_dependencies/rover_interfaces
+[34.020s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/ament_index/resource_index/parent_prefix_path/rover_interfaces
+[34.021s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/environment/ament_prefix_path.sh
+[34.022s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/environment/ament_prefix_path.dsv
+[34.023s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/environment/path.sh
+[34.024s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/environment/path.dsv
+[34.026s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/local_setup.bash
+[34.027s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/local_setup.sh
+[34.028s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/local_setup.zsh
+[34.030s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/local_setup.dsv
+[34.031s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/package.dsv
+[34.033s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/ament_index/resource_index/packages/rover_interfaces
+[34.034s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/export_rover_interfaces__rosidl_generator_cExport.cmake
+[34.036s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/export_rover_interfaces__rosidl_generator_cExport-noconfig.cmake
+[34.037s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/export_rover_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[34.039s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/export_rover_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[34.041s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/rover_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[34.042s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/rover_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[34.044s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/rover_interfaces__rosidl_typesupport_cExport.cmake
+[34.046s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/rover_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[34.047s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/export_rover_interfaces__rosidl_generator_cppExport.cmake
+[34.049s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/export_rover_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[34.051s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/export_rover_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[34.052s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/rover_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[34.054s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/rover_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[34.056s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/rover_interfaces__rosidl_typesupport_cppExport.cmake
+[34.057s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/rover_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[34.059s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/export_rover_interfaces__rosidl_generator_pyExport.cmake
+[34.060s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/export_rover_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[34.062s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/rosidl_cmake-extras.cmake
+[34.063s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[34.064s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[34.066s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[34.067s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[34.068s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[34.070s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[34.071s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/rover_interfacesConfig.cmake
+[34.072s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/cmake/rover_interfacesConfig-version.cmake
+[34.074s] -- Installing: /home/rover/roverbrain_ws/install/rover_interfaces/share/rover_interfaces/package.xml
+[34.083s] Invoked command in '/home/rover/roverbrain_ws/build/rover_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/rover/roverbrain_ws/build/rover_interfaces

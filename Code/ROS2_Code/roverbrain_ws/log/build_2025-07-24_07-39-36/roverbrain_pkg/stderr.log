@@ -1,0 +1,5 @@
+  File "/home/rover/roverbrain_ws/install/roverbrain_pkg/lib/python3.12/site-packages/roverbrain_pkg/steering_control.py", line 23
+    if (target_angle < -50.0 or target_angle > 50.0)
+                                                    ^
+SyntaxError: expected ':'
+

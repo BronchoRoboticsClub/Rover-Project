@@ -1,0 +1,33 @@
+[4.320s] Invoking command in '/home/rover/roverbrain_ws/src/roverbrain_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rover/roverbrain_ws/build/roverbrain_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/roverbrain_ws/install/roverbrain_pkg/lib/python3.12/site-packages:/home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages:/home/rover/roverbrain_ws/install/roverbrain_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/roverbrain_pkg build --build-base /home/rover/roverbrain_ws/build/roverbrain_pkg/build install --record /home/rover/roverbrain_ws/build/roverbrain_pkg/install.log --single-version-externally-managed install_data
+[5.462s] running egg_info
+[5.546s] writing ../../build/roverbrain_pkg/roverbrain_pkg.egg-info/PKG-INFO
+[5.548s] writing dependency_links to ../../build/roverbrain_pkg/roverbrain_pkg.egg-info/dependency_links.txt
+[5.552s] writing entry points to ../../build/roverbrain_pkg/roverbrain_pkg.egg-info/entry_points.txt
+[5.553s] writing requirements to ../../build/roverbrain_pkg/roverbrain_pkg.egg-info/requires.txt
+[5.554s] writing top-level names to ../../build/roverbrain_pkg/roverbrain_pkg.egg-info/top_level.txt
+[5.731s] reading manifest file '../../build/roverbrain_pkg/roverbrain_pkg.egg-info/SOURCES.txt'
+[5.736s] writing manifest file '../../build/roverbrain_pkg/roverbrain_pkg.egg-info/SOURCES.txt'
+[5.736s] running build
+[5.737s] running build_py
+[5.739s] copying roverbrain_pkg/controller_receiver.py -> /home/rover/roverbrain_ws/build/roverbrain_pkg/build/lib/roverbrain_pkg
+[5.741s] copying roverbrain_pkg/steering_control.py -> /home/rover/roverbrain_ws/build/roverbrain_pkg/build/lib/roverbrain_pkg
+[5.741s] copying roverbrain_pkg/motor_control.py -> /home/rover/roverbrain_ws/build/roverbrain_pkg/build/lib/roverbrain_pkg
+[5.744s] running install
+[5.771s] running install_lib
+[5.857s] copying /home/rover/roverbrain_ws/build/roverbrain_pkg/build/lib/roverbrain_pkg/controller_receiver.py -> /home/rover/roverbrain_ws/install/roverbrain_pkg/lib/python3.12/site-packages/roverbrain_pkg
+[5.858s] copying /home/rover/roverbrain_ws/build/roverbrain_pkg/build/lib/roverbrain_pkg/steering_control.py -> /home/rover/roverbrain_ws/install/roverbrain_pkg/lib/python3.12/site-packages/roverbrain_pkg
+[5.859s] copying /home/rover/roverbrain_ws/build/roverbrain_pkg/build/lib/roverbrain_pkg/motor_control.py -> /home/rover/roverbrain_ws/install/roverbrain_pkg/lib/python3.12/site-packages/roverbrain_pkg
+[5.862s] byte-compiling /home/rover/roverbrain_ws/install/roverbrain_pkg/lib/python3.12/site-packages/roverbrain_pkg/controller_receiver.py to controller_receiver.cpython-312.pyc
+[5.865s] byte-compiling /home/rover/roverbrain_ws/install/roverbrain_pkg/lib/python3.12/site-packages/roverbrain_pkg/steering_control.py to steering_control.cpython-312.pyc
+[5.866s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (steering_control.py, line 17)
+[5.866s] byte-compiling /home/rover/roverbrain_ws/install/roverbrain_pkg/lib/python3.12/site-packages/roverbrain_pkg/motor_control.py to motor_control.cpython-312.pyc
+[5.868s] running install_data
+[5.870s] running install_egg_info
+[5.961s] removing '/home/rover/roverbrain_ws/install/roverbrain_pkg/lib/python3.12/site-packages/roverbrain_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[5.962s] Copying ../../build/roverbrain_pkg/roverbrain_pkg.egg-info to /home/rover/roverbrain_ws/install/roverbrain_pkg/lib/python3.12/site-packages/roverbrain_pkg-0.0.0-py3.12.egg-info
+[5.969s] running install_scripts
+[6.600s] Installing motor_control script to /home/rover/roverbrain_ws/install/roverbrain_pkg/lib/roverbrain_pkg
+[6.602s] Installing receiver script to /home/rover/roverbrain_ws/install/roverbrain_pkg/lib/roverbrain_pkg
+[6.603s] Installing steering_control script to /home/rover/roverbrain_ws/install/roverbrain_pkg/lib/roverbrain_pkg
+[6.604s] writing list of installed files to '/home/rover/roverbrain_ws/build/roverbrain_pkg/install.log'
+[6.745s] Invoked command in '/home/rover/roverbrain_ws/src/roverbrain_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rover/roverbrain_ws/build/roverbrain_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/roverbrain_ws/install/roverbrain_pkg/lib/python3.12/site-packages:/home/rover/roverbrain_ws/install/rover_interfaces/lib/python3.12/site-packages:/home/rover/roverbrain_ws/install/roverbrain_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/roverbrain_pkg build --build-base /home/rover/roverbrain_ws/build/roverbrain_pkg/build install --record /home/rover/roverbrain_ws/build/roverbrain_pkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,29 @@
+running egg_info
+writing ../../build/roverbrain_pkg/roverbrain_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/roverbrain_pkg/roverbrain_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/roverbrain_pkg/roverbrain_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/roverbrain_pkg/roverbrain_pkg.egg-info/requires.txt
+writing top-level names to ../../build/roverbrain_pkg/roverbrain_pkg.egg-info/top_level.txt
+reading manifest file '../../build/roverbrain_pkg/roverbrain_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/roverbrain_pkg/roverbrain_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying roverbrain_pkg/steering_control.py -> /home/rover/roverbrain_ws/build/roverbrain_pkg/build/lib/roverbrain_pkg
+running install
+running install_lib
+copying /home/rover/roverbrain_ws/build/roverbrain_pkg/build/lib/roverbrain_pkg/steering_control.py -> /home/rover/roverbrain_ws/install/roverbrain_pkg/lib/python3.12/site-packages/roverbrain_pkg
+byte-compiling /home/rover/roverbrain_ws/install/roverbrain_pkg/lib/python3.12/site-packages/roverbrain_pkg/steering_control.py to steering_control.cpython-312.pyc
+  File "/home/rover/roverbrain_ws/install/roverbrain_pkg/lib/python3.12/site-packages/roverbrain_pkg/steering_control.py", line 22
+    FR_angle = int(math.degrees((atan((2*0.284*sin(math.radians(target_angle)))/(2*0.284*cos(math.radians(target_angle))-0.464*sin(math.radians(target_angle))))))
+                  ^
+SyntaxError: '(' was never closed
+
+running install_data
+running install_egg_info
+removing '/home/rover/roverbrain_ws/install/roverbrain_pkg/lib/python3.12/site-packages/roverbrain_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/roverbrain_pkg/roverbrain_pkg.egg-info to /home/rover/roverbrain_ws/install/roverbrain_pkg/lib/python3.12/site-packages/roverbrain_pkg-0.0.0-py3.12.egg-info
+running install_scripts
+Installing motor_control script to /home/rover/roverbrain_ws/install/roverbrain_pkg/lib/roverbrain_pkg
+Installing receiver script to /home/rover/roverbrain_ws/install/roverbrain_pkg/lib/roverbrain_pkg
+Installing steering_control script to /home/rover/roverbrain_ws/install/roverbrain_pkg/lib/roverbrain_pkg
+writing list of installed files to '/home/rover/roverbrain_ws/build/roverbrain_pkg/install.log'
