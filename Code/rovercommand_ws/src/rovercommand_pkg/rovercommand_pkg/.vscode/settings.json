@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/colton/rovercommand_ws/install/my_py_pkg/lib/python3.12/site-packages",
+        "/home/colton/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages",
+        "/home/colton/ros2_ws/install/rover_interfaces/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/colton/rovercommand_ws/install/my_py_pkg/lib/python3.12/site-packages",
+        "/home/colton/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages",
+        "/home/colton/ros2_ws/install/rover_interfaces/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}
